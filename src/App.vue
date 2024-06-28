@@ -6,7 +6,7 @@ import TheJoin from './components/TheJoin.vue'
 import TheFooter from './components/TheFooter.vue'
 //import TheProducts from './components/TheProducts.vue'
 //import TheContact from './components/TheContact.vue'
-
+import TheUpdates from './components/TheUpdates.vue'
 
 </script>
 
@@ -18,6 +18,6 @@ import TheFooter from './components/TheFooter.vue'
   <TheFooter/>
   <TheProducts/>
   <TheContact/>
-  
+  <TheUpdates />
   
 </template>
