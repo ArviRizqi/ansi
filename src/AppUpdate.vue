@@ -1,11 +1,11 @@
 <script setup>
-  import Home from './views/HomeView.vue'
+  import Update from './views/UpdateView.vue'
 </script>
 
 <template>
 
   <div style="background-color: #16163F;">
-    <Home />
+    <Update />
   </div>
   
 </template>

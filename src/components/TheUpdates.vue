@@ -53,11 +53,12 @@
   }
   
   .update-image {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
     margin-right: 20px;
     border-radius: 8px;
+    background-color: rgba(238, 238, 238, 0.686);
   }
   
   .update-content {

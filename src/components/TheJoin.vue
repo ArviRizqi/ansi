@@ -17,9 +17,9 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <div class="container-fluid">
       <h1>{{ title }}</h1>
-      <h2>{{ subtitle }}</h2>
+      <h2 class=" text-primary">{{ subtitle }}</h2>
       <p>{{ description }}</p>
       <button @click="joinDiscord">
         JOIN DISCORD
@@ -29,31 +29,33 @@ export default {
   </template>
 
   <style scoped>
-.container {
+.container-fluid{
   text-align: left;
   background-color: transparent;
   color: #fff;
-  padding: 20px;
+  padding: 0 15rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 h1 {
-  font-size: 3em;
-  margin-bottom: 1em;
+  font-size: 70px;
+  color: #FECA72;
 }
 
 h2 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
+  font-size: 50px;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.5;
   margin-bottom: 1em;
+  font-weight: 300;
 }
 
 button {
-  background-color: transparent;
+  background-color: #333;
   color: #fff;
   padding: 10px 20px;
   border: none;

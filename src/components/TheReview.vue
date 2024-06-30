@@ -13,12 +13,12 @@ export default {
 }
 </script>
 <template>
-    <div class="container">
-      <div class="image-container">
+  <div class="container-fluid row">
+      <div class="image-container col-4">
         <img src="../assets/eula(2).png" alt="Eula" class="image">
       </div>
-      <div class="review-wrapper">
-        <div class="review-container">
+      <div class="review-wrapper col-8 justify-content-between">
+        <div class="review-container con-1">
           <div class="review">
             <div class="stars">
               <FontAwesomeIcon :icon="['fas', 'star']" />
@@ -39,7 +39,7 @@ export default {
             </div>
           </div>
         </div>
-        <div class="review-container">
+        <div class="review-container con-2">
           <div class="review">
             <div class="stars">
               <FontAwesomeIcon :icon="['fas', 'star']" />
@@ -66,11 +66,11 @@ export default {
   
   
 <style scoped>
-.container {
-  position: relative;
-  display: flex;
-  margin-top: 20px;
-  background-color: #f0e68c;
+.container-fluid{
+  width: 100%;
+  overflow: hidden !important;
+  padding: 5rem 15rem;
+  background-color: #ffc107dc;
 }
 
 .image-container {
@@ -91,14 +91,16 @@ export default {
 .review-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 60%;
-  margin-right: 50px;
+  width: 100%;
 }
 
 .review-container {
-  width: 48%;
   margin-top: 250px;
-  
+  margin-right: 20px;
+}
+
+.con-1{
+  margin-top: 150px;
 }
 
 .review {

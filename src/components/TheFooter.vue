@@ -19,10 +19,12 @@
 .footer {
   background-color: #1a1a3c; /* Match the background color */
   color: white;
-  padding: 10px 20px;
+  padding: 0 15rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
+  border-top: 1px #646464 solid;
 }
 
 .footer-content {
@@ -33,14 +35,12 @@
 }
 
 .logo {
-  padding-left: 100px;
   font-size: 24px;
   font-weight: bold;
   color: white;
 }
 
 .copyright {
-  padding-right: 100px;
   font-size: 12px;
   text-align: right;
   color: white;

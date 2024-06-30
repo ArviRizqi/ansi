@@ -1,11 +1,11 @@
 <script setup>
-  import Home from './views/HomeView.vue'
+  import Product from './views/ProductView.vue'
 </script>
 
 <template>
 
   <div style="background-color: #16163F;">
-    <Home />
+    <Product />
   </div>
   
 </template>
