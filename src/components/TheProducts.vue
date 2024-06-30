@@ -50,7 +50,7 @@
     <div class="container">
       <div class="search-bar">
         <input type="text" placeholder="Search for a product..." />
-        <button>
+        <button class="m-0">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -107,6 +107,7 @@
     background-color: #333;
     color: #fff;
     padding: 10px;
+    padding-top: 12px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
