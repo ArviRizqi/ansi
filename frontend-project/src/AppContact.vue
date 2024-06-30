@@ -1,11 +1,11 @@
 <script setup>
-  import Home from './views/HomeView.vue'
+  import Contact from './views/ContactView.vue'
 </script>
 
 <template>
 
   <div style="background-color: #16163F;">
-    <Home />
+    <Contact />
   </div>
   
 </template>
